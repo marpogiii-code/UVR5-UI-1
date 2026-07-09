@@ -9,5 +9,5 @@
     "selected_lang": "en_US"
   },
   "discord_presence": true,
-  "load_custom_settings": false
+  "load_custom_settings": true
 }
