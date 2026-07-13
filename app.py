@@ -1190,10 +1190,8 @@ function refresh() {{
 }}
 """
             
-with gr.Blocks(theme = loadThemes.load_json() or "NoCrypt/miku", title = "🎵 UVR5 UI 🎵", js = js_func) as app:
-    gr.Markdown("<h1> 🎵 UVR5 UI 🎵 </h1>")
-    gr.Markdown(i18n("If you like UVR5 UI you can star my repo on [GitHub](https://github.com/Eddycrack864/UVR5-UI)"))
-    gr.Markdown(i18n("Try UVR5 UI on Hugging Face with A100 [here](https://huggingface.co/spaces/TheStinger/UVR5_UI)"))
+with gr.Blocks(theme = loadThemes.load_json() or "NoCrypt/miku", title = "🎵 UVR5 UI BY MAE 🎵", js = js_func) as app:
+    gr.Markdown("<h1> 🎵 UVR5 UI BY MAR 🎵 </h1>")
     all_configurable_inputs = []
     with gr.Tabs():
         with gr.TabItem("BS/Mel Roformer"):
@@ -2345,20 +2343,7 @@ with gr.Blocks(theme = loadThemes.load_json() or "NoCrypt/miku", title = "🎵 U
         with gr.TabItem(i18n("Credits")):
             gr.Markdown(
                 """
-                UVR5 UI created by **[Eddycrack 864](https://github.com/Eddycrack864).** Join **[AI HUB](https://discord.gg/aihub)** community.
-                * python-audio-separator by [beveradb](https://github.com/beveradb).
-                * Special thanks to [Ilaria](https://github.com/TheStingerX) for hosting this space and help.
-                * Thanks to [Mikus](https://github.com/cappuch) for the help with the code.
-                * Thanks to [Nick088](https://huggingface.co/Nick088) for the help to fix roformers.
-                * Thanks to [yt_dlp](https://github.com/yt-dlp/yt-dlp) devs.
-                * Separation by link source code and improvements by [NeoDev](https://github.com/TheNeodev).
-                * Thanks to [ArisDev](https://github.com/aris-py) for porting UVR5 UI to Kaggle and improvements.
-                * Thanks to [Bebra777228](https://github.com/Bebra777228)'s code for guiding me to improve my code.
-                * Thanks to Nick088, MrM0dZ, Ryouko-Yamanda65777, lucinamari, perariroswe, Enes, Léo, the_undead0 and Storm for helping translate UVR5 UI.
-                * Thanks to vadigr123 for creating the images for the Discord Rich Presence.
-                
-                You can donate to the original UVR5 project here:
-                [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/uvr5)
+                MAR LANG MALAKAS!!!
                 """
             )
 
